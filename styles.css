@@ -1,0 +1,133 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    /*color: teal;*/
+}
+
+header{
+    margin-top: 1em;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+  } 
+
+
+nav li{
+    display: inline-block;
+    margin: 0.5em;
+
+}
+
+nav a{
+    color: white;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: teal;/* #555;*/
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+      
+
+.home span{
+    display: block;
+} 
+
+.home{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    padding: 16em 7em 5em 5em;/*110px;*/
+    /* 
+    padding-top: 7em;
+padding-right: 7em;
+padding-bottom: 7em;
+padding-left: 7em;
+    */
+    text-align: center;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+
+.home .android img{
+    width: 20vh;    
+    height: auto;
+}
+
+.phone{
+    float: right;
+    
+}
+
+.phone img{
+    
+   height: 20em;
+   width: 50vh;
+
+}
+
+.header{
+    float: left;
+    font-size: 0.5rem;
+    padding: 6em;
+    /*padding: 6em 2em 10em 10em;*/
+}
+
+div.division{
+    padding: 6.3em;
+    height: 100vh;
+}
+
+p.footer{
+    
+    display: inline-block;
+    clear: both;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 1.5px .75px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: teal;
+    border: 2px solid teal;
+  }
+  
+  .button1:hover {
+    background-color: teal;
+    color: white;
+  }
+
+  .icon{
+    width: 5vh;
+    vertical-align:middle;
+  }
+
+  .brand{
+    vertical-align:middle;
+    margin: 5px 0 0 10px;
+    font-weight: 600;
+    font-size: 3.5vh;
+    color: white;
+    }
