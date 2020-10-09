@@ -12,4 +12,4 @@ tagline: Standards Android Apps for Bureau of Indian Standards (BIS)
 
 #canonical_url: bisstandards.github.io/bisstandards
 
-#{% raw %}{% seo %}{% endraw %}
+{% raw %}{% seo %}{% endraw %}
