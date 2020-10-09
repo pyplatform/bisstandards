@@ -12,4 +12,4 @@ url: bisstandards.github.io/bisstandards
 
 canonical_url: bisstandards.github.io/bisstandards
 
-{% raw %}{% seo %}{% endraw %}
+#{% raw %}{% seo %}{% endraw %}
