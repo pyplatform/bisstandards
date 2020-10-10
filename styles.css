@@ -36,7 +36,7 @@ nav a{
     background-color: teal;/* #555;*/
     position: fixed; /* Set the navbar to fixed position */
     top: 0px; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
+    width: 100vw; /* Full width */
   }
       
 
@@ -82,12 +82,13 @@ padding-left: 7em;
 .header{
     float: left;
     font-size: 0.5rem;
-    padding: 6em;
+    padding: 10vw;
     /*padding: 6em 2em 10em 10em;*/
 }
 
 div.division{
-    padding: 6.3em;
+    /*padding: 6.3em;*/
+    padding: 10vw 5vw 10vw 5vw;
     height: 100vh;
 }
 
