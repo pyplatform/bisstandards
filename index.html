@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-     {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./styles.css" type="text/css"/>
     <title>Standards</title>
     <meta charset="UTF-8">
     <style>
@@ -11,6 +9,12 @@
       font-family: Arial, Helvetica, sans-serif;
       }
     </style>
+    {%- seo -%}
+  <link rel="stylesheet" href="./styles.css" type="text/css"/>
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
   </head>
   <body>
       
